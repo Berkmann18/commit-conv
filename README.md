@@ -1,6 +1,5 @@
 # commit-conv
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![NPM](https://nodei.co/npm/commit-conv.png)](https://nodei.co/npm//)
 [![Downloads](https://img.shields.io/npm/dm/commit-conv.svg)](https://npmcharts.com/compare/commit-conv?minimal=true)
 [![Inline docs](http://inch-ci.org/github/Berkmann18/commit-conv.svg?branch=master)](http://inch-ci.org/github/Berkmann18/commit-conv)
@@ -22,7 +21,7 @@
 [![eslint](https://aleen42.github.io/badges/src/eslint.svg)](./eslintrc.json)
 [![Known Vulnerabilities](https://snyk.io/test/github/Berkmann18/commit-conv/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Berkmann18/commit-conv?targetFile=package.json)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![GitHub](https://img.shields.io/github/license/Berkmann18/commit-conv.svg)](https://github.com/Berkmann18/commit-conv/blob/master/LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Berkmann18/commit-conv/issues)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
