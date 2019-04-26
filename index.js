@@ -10,6 +10,7 @@ const capitalize = (_, ...chars) => `${chars[0].toUpperCase()}${chars[1]}`
 
 /**
  * Convert a commit message into one that follows the specified commit `convention`.
+ * @param {Object<string>} param Parameters
  * @param {string} param.tag Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...)
  * @param {string} param.msg Header of the commit message
  * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`)

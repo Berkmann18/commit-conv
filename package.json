@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "doc:lint": "documentation lint index.js",
-    "doc:html": "documentation build *.js -f html -o doc/ -a public",
-    "doc": "npm run doc:lint && npm run doc:html",
+    "doc:md": "documentation readme index.js -s \"Documentation\" --f remark -g",
+    "doc": "npm run doc:lint && npm run doc:md",
     "lint:js": "eslint -c ./.eslintrc.json src/*.js test/*.js --fix",
     "lint:md": "remark . .github -i ./.remarkignore",
     "lint": "npm run lint:js && npm run lint:md",
