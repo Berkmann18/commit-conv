@@ -4,7 +4,7 @@
   "description": "Converts commit messages based on commit conventions",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "snyk test && jest",
     "doc:lint": "documentation lint index.js",
     "doc:md": "documentation readme index.js -s \"Documentation\" --f remark -g",
     "doc": "npm run doc:lint && npm run doc:md",
