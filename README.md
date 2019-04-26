@@ -1,6 +1,6 @@
 # commit-conv
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![NPM](https://nodei.co/npm/commit-conv.png)](https://nodei.co/npm//)
 [![Downloads](https://img.shields.io/npm/dm/commit-conv.svg)](https://npmcharts.com/compare/commit-conv?minimal=true)
 [![Inline docs](http://inch-ci.org/github/Berkmann18/commit-conv.svg?branch=master)](http://inch-ci.org/github/Berkmann18/commit-conv)
@@ -68,7 +68,7 @@ Please refer to [that](.github/CONTRIBUTING.md).
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
