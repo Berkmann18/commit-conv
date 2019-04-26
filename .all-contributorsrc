@@ -21,7 +21,8 @@
         "ideas",
         "infra",
         "maintenance",
-        "test"
+        "test",
+        "example"
       ]
     }
   ],
