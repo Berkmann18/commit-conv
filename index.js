@@ -15,6 +15,9 @@ const capitalize = (_, ...chars) => `${chars[0].toUpperCase()}${chars[1]}`
  * @param {string} param.msg Header of the commit message
  * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`)
  * @returns {string} Commit message
+ * @example
+ * commitConv({tag: 'docs', msg: 'Update README.md', convention: 'angular'}); //'docs: update README.md'
+ * commitConv({tag: 'fix', msg: 'bye bye #1', convention: 'eslint'}); //'Fix: Bye bye #1'
  */
 const commitConv = ({ tag, msg, convention }) => {
   let newTag = ''
