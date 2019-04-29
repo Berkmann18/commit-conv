@@ -71,3 +71,23 @@ test('None', () => {
   expect(conv({ tag, msg: 'do something', convention })).toStrictEqual('do something')
   expect(conv({ tag, msg: 'try X', convention })).toStrictEqual('try X')
 })
+
+test('Unknown convention', () => {
+  expect(conv({ tag: 'docs', msg: 'add Berkmann18' })).toStrictEqual('add Berkmann18')
+})
+
+test('Unknown tag', () => {
+  expect(() => conv({ msg: 'add Berkmann18', convention: 'eslint' })).toThrowError('tag is required')
+})
+
+test('Unknown msg', () => {
+  expect(() => conv({ tag: 'chore', convention: 'eslint' })).toThrowError('msg is required')
+})
+
+test('Invalid convention', () => {
+  expect(() => conv({ tag: 'fix', msg: 'close #1', convention: 'xyz' })).toThrowError('"xyz" isn\'t a valid/supported convention')
+})
+test('Invalid tag', () => {
+  expect(() => conv({ tag: 'update', msg: 'add Berkmann18', convention: 'angular' })).toThrowError('"update" isn\'t a tag in the angular convention')
+})
+
