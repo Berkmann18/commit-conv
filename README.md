@@ -42,22 +42,37 @@ Converts commit messages based on commit conventions.
 
 #### Table of Contents
 
--   [commitConv](#commitconv)
+-   [required](#required)
     -   [Parameters](#parameters)
+-   [commitConv](#commitconv)
+    -   [Parameters](#parameters-1)
     -   [Examples](#examples)
+
+### required
+
+[index.js:16-18](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/d8b1d8a57cc06686a4a55b1684b73c80d45d3f7f/index.js#L16-L18 "Source code on GitHub")
+
+Throws an error when a required parameter isn't specified.
+
+#### Parameters
+
+-   `param` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of a required parameter
+
+
+-   Throws **[Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)** Required parameter
 
 ### commitConv
 
-[index.js:22-51](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/e6891eec02a374be028fbe5cfc65a80fa0e4b416/index.js#L22-L51 "Source code on GitHub")
+[index.js:35-67](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/d8b1d8a57cc06686a4a55b1684b73c80d45d3f7f/index.js#L35-L67 "Source code on GitHub")
 
 Convert a commit message into one that follows the specified commit `convention`.
 
 #### Parameters
 
 -   `param` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)&lt;[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)>** Parameters
-    -   `param.tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...)
-    -   `param.msg` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Header of the commit message
-    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`)
+    -   `param.tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...) (optional, default `required('tag')`)
+    -   `param.msg` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Header of the commit message (optional, default `required('msg')`)
+    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`) (optional, default `''`)
 
 #### Examples
 
@@ -65,6 +80,9 @@ Convert a commit message into one that follows the specified commit `convention`
 commitConv({tag: 'docs', msg: 'Update README.md', convention: 'angular'}); //'docs: update README.md'
 commitConv({tag: 'fix', msg: 'bye bye #1', convention: 'eslint'}); //'Fix: Bye bye #1'
 ```
+
+-   Throws **[Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)** Invalid convention
+-   Throws **[Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)** Invalid tag in specified convention
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Commit message
 
@@ -78,7 +96,9 @@ Thanks goes to these wonderful people
 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore -->
+
 <table><tr><td align="center"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a> <a href="#example-Berkmann18" title="Examples">💡</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
