@@ -89,4 +89,4 @@ specification. Contributions of any kind are welcome!
 
 ## LICENSE
 
-MIT
+[MIT](./LICENSE)
