@@ -21,7 +21,7 @@
 [![eslint](https://aleen42.github.io/badges/src/eslint.svg)](./eslintrc.json)
 [![Known Vulnerabilities](https://snyk.io/test/github/Berkmann18/commit-conv/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Berkmann18/commit-conv?targetFile=package.json)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![GitHub](https://img.shields.io/github/license/Berkmann18/commit-conv.svg)](https://github.com/Berkmann18/commit-conv/blob/master/LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Berkmann18/commit-conv/issues)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -96,10 +96,8 @@ Thanks goes to these wonderful people
 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore -->
-
-<table><tr><td align="center"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a> <a href="#example-Berkmann18" title="Examples">💡</a></td></tr></table>
+<table><tr><td align="center"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a> <a href="#example-Berkmann18" title="Examples">💡</a></td><td align="center"><a href="http://semantic-release.org/"><img src="https://avatars1.githubusercontent.com/u/32174276?v=4" width="100px;" alt="Semantic Release Bot"/><br /><sub><b>Semantic Release Bot</b></sub></a><br /><a href="#platform-semantic-release-bot" title="Packaging/porting to new platform">📦</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
