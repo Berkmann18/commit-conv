@@ -1,6 +1,6 @@
 {
   "name": "commit-conv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Converts commit messages based on commit conventions",
   "main": "index.js",
   "scripts": {
