@@ -42,28 +42,13 @@ Converts commit messages based on commit conventions.
 
 #### Table of Contents
 
--   [required](#required)
-    -   [Parameters](#parameters)
 -   [commitConv](#commitconv)
-    -   [Parameters](#parameters-1)
+    -   [Parameters](#parameters)
     -   [Examples](#examples)
-
-### required
-
-[index.js:16-18](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/d8b1d8a57cc06686a4a55b1684b73c80d45d3f7f/index.js#L16-L18 "Source code on GitHub")
-
-Throws an error when a required parameter isn't specified.
-
-#### Parameters
-
--   `param` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of a required parameter
-
-
--   Throws **[Error](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)** Required parameter
 
 ### commitConv
 
-[index.js:35-67](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/d8b1d8a57cc06686a4a55b1684b73c80d45d3f7f/index.js#L35-L67 "Source code on GitHub")
+[index.js:36-68](https://Berkmann18@github.com/Berkmann18/commit-conv/blob/f2cfea85238195f356f5a850ccf76cf80e6fef06/index.js#L36-L68 "Source code on GitHub")
 
 Convert a commit message into one that follows the specified commit `convention`.
 
@@ -72,7 +57,7 @@ Convert a commit message into one that follows the specified commit `convention`
 -   `param` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)&lt;[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)>** Parameters
     -   `param.tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...) (optional, default `required('tag')`)
     -   `param.msg` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Header of the commit message (optional, default `required('msg')`)
-    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`) (optional, default `''`)
+    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint` or `none`) (optional, default `''`)
 
 #### Examples
 

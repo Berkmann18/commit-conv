@@ -12,6 +12,7 @@ const capitalize = (_, ...chars) => `${chars[0].toUpperCase()}${chars[1]}`
  * Throws an error when a required parameter isn't specified.
  * @param {string} param Name of a required parameter
  * @throws {Error} Required parameter
+ * @private
  */
 const required = (param) => {
   throw new Error(`${param} is required`)
@@ -24,7 +25,7 @@ const ONE_PLUS_RE = /^(\w)(\w+)/
  * @param {Object<string>} param Parameters
  * @param {string} param.tag Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...)
  * @param {string} param.msg Header of the commit message
- * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `none`)
+ * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint` or `none`)
  * @returns {string} Commit message
  * @throws {Error} Invalid convention
  * @throws {Error} Invalid tag in specified convention
