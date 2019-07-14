@@ -1,3 +1,19 @@
+## [1.0.1](https://github.com/Berkmann18/commit-conv/compare/v1.0.0...v1.0.1) (2019-07-14)
+
+
+### Build
+
+* Added missing `npm` package ([af5910d7736c11c9033698dca49a800d65dd484c](https://github.com/Berkmann18/commit-conv/commit/af5910d7736c11c9033698dca49a800d65dd484c))
+
+### Docs
+
+* Add @semantic-release-bot as a contributor ([a75eff4ffd7f27a467b0ca966f771820663a3ba5](https://github.com/Berkmann18/commit-conv/commit/a75eff4ffd7f27a467b0ca966f771820663a3ba5))
+* Removed `require` ([7fd7e6d325f76e71dd4fce78c3fcefa4b80ddffa](https://github.com/Berkmann18/commit-conv/commit/7fd7e6d325f76e71dd4fce78c3fcefa4b80ddffa))
+
+### Fix
+
+* Security upgrade ([dbb6a8578e17c241ac6f1fd1d24d282dd272e6de](https://github.com/Berkmann18/commit-conv/commit/dbb6a8578e17c241ac6f1fd1d24d282dd272e6de))
+
 # 1.0.0 (2019-04-29)
 
 
