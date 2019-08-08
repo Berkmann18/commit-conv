@@ -1,3 +1,14 @@
+## [1.0.2](https://github.com/Berkmann18/commit-conv/compare/v1.0.1...v1.0.2) (2019-08-08)
+
+
+### Chore
+
+* Added an IssueLabel oconfig ([35c06b0c470df4b2a694f1616711a2414f90b863](https://github.com/Berkmann18/commit-conv/commit/35c06b0c470df4b2a694f1616711a2414f90b863))
+
+### Fix
+
+* Security upgrade ([f028cc9964f5bab45e0283f232b4d1fbd2196209](https://github.com/Berkmann18/commit-conv/commit/f028cc9964f5bab45e0283f232b4d1fbd2196209))
+
 ## [1.0.1](https://github.com/Berkmann18/commit-conv/compare/v1.0.0...v1.0.1) (2019-07-14)
 
 
