@@ -1,3 +1,18 @@
+## [1.0.3](https://github.com/Berkmann18/commit-conv/compare/v1.0.2...v1.0.3) (2020-04-04)
+
+
+### Chore
+
+* Lock file maintenance ([b96292d030acca3a46124777daa95bdb83b0d3c4](https://github.com/Berkmann18/commit-conv/commit/b96292d030acca3a46124777daa95bdb83b0d3c4))
+
+### Fix
+
+* Vulnerability fix ([74a9daef17cebb82f2780ee811a8e3aade5820cb](https://github.com/Berkmann18/commit-conv/commit/74a9daef17cebb82f2780ee811a8e3aade5820cb))
+
+### Upgrade
+
+* Bump handlebars from 4.1.2 to 4.5.3 ([705943bf9dff06ba71a55112a8a0a901d046f206](https://github.com/Berkmann18/commit-conv/commit/705943bf9dff06ba71a55112a8a0a901d046f206))
+
 ## [1.0.2](https://github.com/Berkmann18/commit-conv/compare/v1.0.1...v1.0.2) (2019-08-08)
 
 
