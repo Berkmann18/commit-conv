@@ -60,6 +60,17 @@ test('JSHint', () => {
   expect(conv({ tag, msg: 'try X', convention })).toStrictEqual('[[CHORE]] Try X')
 })
 
+test('Gitmoji', () => {
+  let tag = 'docs'
+  const convention = 'gitmoji'
+  expect(conv({ tag, msg: 'add Berkmann18', convention })).toStrictEqual('📝 Add Berkmann18')
+  expect(conv({ tag, msg: 'Add Berkmann18', convention })).toStrictEqual('📝 Add Berkmann18')
+  expect(conv({ tag, msg: 'Add X and Y', convention })).toStrictEqual('📝 Add X and Y')
+  tag = 'refactor'
+  expect(conv({ tag, msg: 'Refactor code', convention })).toStrictEqual('♻️ Refactor code')
+  expect(conv({ tag, msg: 'merge test', convention })).toStrictEqual('♻️ Merge test')
+})
+
 test('None', () => {
   let tag = 'docs'
   const convention = ''

@@ -25,7 +25,7 @@ const ONE_PLUS_RE = /^(\w)(\w+)/
  * @param {Object<string>} param Parameters
  * @param {string} param.tag Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...)
  * @param {string} param.msg Header of the commit message
- * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint` or `none`)
+ * @param {string} param.convention Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `gitmoji`  or `none`)
  * @returns {string} Commit message
  * @throws {Error} Invalid convention
  * @throws {Error} Invalid tag in specified convention
@@ -62,6 +62,9 @@ const commitConv = ({
   case 'jshint':
     newMsg = msg.replace(ONE_PLUS_RE, capitalize)
     return `[[${newTag}]] ${newMsg}`
+  case 'gitmoji':
+    newMsg = msg.replace(ONE_PLUS_RE, capitalize)
+    return `${newTag} ${newMsg}`
   default:
     return msg
   }

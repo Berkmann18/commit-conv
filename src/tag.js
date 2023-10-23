@@ -56,5 +56,17 @@ module.exports = {
     feat: 'FEAT',
     fix: 'FIX',
     test: 'DOCS'
-  }
+  },
+  gitmoji: {
+    feat: '✨',
+    fix: '🐛',
+    docs: '📝',
+    style: '🎨',
+    refactor: '♻️',
+    perf: '⚡️',
+    test: '✅',
+    build: '📦️',
+    ci: '👷',
+    chore: '🔧'
+  },
 }

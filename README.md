@@ -57,7 +57,7 @@ Convert a commit message into one that follows the specified commit `convention`
 -   `param` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)&lt;[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)>** Parameters
     -   `param.tag` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Tag of the commit message (e.g: `fix`, `chore`, `feat`, `docs`, `test`, ...) (optional, default `required('tag')`)
     -   `param.msg` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Header of the commit message (optional, default `required('msg')`)
-    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint` or `none`) (optional, default `''`)
+    -   `param.convention` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Name of the commit convention (`angular`, `atom`, `ember`, `eslint`, `jshint`, `gitmoji` or `none`) (optional, default `''`)
 
 #### Examples
 
