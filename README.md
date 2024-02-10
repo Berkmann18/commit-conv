@@ -81,8 +81,20 @@ Thanks goes to these wonderful people
 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a> <a href="#example-Berkmann18" title="Examples">💡</a></td><td align="center"><a href="http://semantic-release.org/"><img src="https://avatars1.githubusercontent.com/u/32174276?v=4" width="100px;" alt="Semantic Release Bot"/><br /><sub><b>Semantic Release Bot</b></sub></a><br /><a href="#platform-semantic-release-bot" title="Packaging/porting to new platform">📦</a></td></tr></table>
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://maxcubing.wordpress.com"><img src="https://avatars0.githubusercontent.com/u/8260834?v=4?s=100" width="100px;" alt="Maximilian Berkmann"/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a> <a href="https://github.com/Berkmann18/commit-conv/commits?author=Berkmann18" title="Tests">⚠️</a> <a href="#example-Berkmann18" title="Examples">💡</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://semantic-release.org/"><img src="https://avatars1.githubusercontent.com/u/32174276?v=4?s=100" width="100px;" alt="Semantic Release Bot"/><br /><sub><b>Semantic Release Bot</b></sub></a><br /><a href="#platform-semantic-release-bot" title="Packaging/porting to new platform">📦</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.bbourgeois.dev"><img src="https://avatars.githubusercontent.com/u/20949060?v=4?s=100" width="100px;" alt="Benjamin Bourgeois"/><br /><sub><b>Benjamin Bourgeois</b></sub></a><br /><a href="https://github.com/Berkmann18/commit-conv/commits?author=bengeois" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
